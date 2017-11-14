@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.ServiceFabric.FabricTransport.V2</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.ServiceFabric.FabricTransport.V2.Runtime.IFabricTransportMessageHandler">
+            <summary>
+            Defines the interface that must be implemented by the ServiceRemotingListener to receive messages from the
+            remoting transport.
+            </summary>
+        </member>
+        <member name="T:Microsoft.ServiceFabric.FabricTransport.V2.NativeFabricTransport.IFabricTransportMessageHandler">
+                
+            
+        </member>
+        <member name="M:Microsoft.ServiceFabric.FabricTransport.V2.NativeMessageStream.#ctor(System.Collections.Generic.List{System.Tuple{System.UInt32,System.IntPtr}})">
+            <summary>
+            Instantiate NativeMessageStream class
+            </summary>
+            <param name="bufferList"></param>
+        </member>
+        <member name="T:Microsoft.ServiceFabric.FabricTransport.V2.SR">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.Error_ConnectionDenied">
+            <summary>
+              Looks up a localized string similar to Client is Not authorized to connect.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.Error_InvalidOperation">
+            <summary>
+              Looks up a localized string similar to Invalid Client for remoting..
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.ErrorClientCallbackChannelNotFound">
+            <summary>
+              Looks up a localized string similar to CallBack Channel Not Found for this ClientId  : &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.ErrorConfigFileNotFound">
+            <summary>
+              Looks up a localized string similar to Config File was Not Found in this path {0}.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.ErrorConfigPackageNotFound">
+            <summary>
+              Looks up a localized string similar to ConfigPackageName {0} was not found..
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.ErrorInvalidAddress">
+            <summary>
+              Looks up a localized string similar to Client is trying to connect to invalid address {0}..
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.ErrorSectionNameNotFound">
+            <summary>
+              Looks up a localized string similar to SectionName {0} was Not Found in the Settings File.
+            </summary>
+        </member>
+        <member name="P:Microsoft.ServiceFabric.FabricTransport.V2.SR.ErrorServiceTooBusy">
+            <summary>
+              Looks up a localized string similar to This can happen if message is dropped when service is busy or its long running operation and taking more time than configured Operation Timeout..
+            </summary>
+        </member>
+    </members>
+</doc>
